@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coklat"
+    android:layout_gravity="center"
+    tools:context=".sighupButton">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Form sigh up isi dengan benar"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/putih"
+        android:layout_marginLeft="20dp"/>
+
+
+        <EditText
+            android:id="@+id/ednamadepan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="nama depan"
+            android:gravity="center"
+            android:textColor="@color/coklat"
+            android:textSize="20dp"
+            android:background="@color/putih" />
+
+        <EditText
+            android:id="@+id/ednamablkng"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="nama belakang"
+            android:gravity="center"
+            android:textColor="@color/coklat"
+            android:textSize="20dp"
+            android:background="@color/putih"/>
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Masukan E mail"
+            android:gravity="center"
+            android:textColor="@color/coklat"
+            android:textSize="20dp"
+            android:background="@color/putih"/>
+        <EditText
+            android:id="@+id/edconfrmpas"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="confirmasi password"
+            android:gravity="center"
+            android:textColor="@color/coklat"
+            android:textSize="20dp"
+            android:background="@color/putih"/>
+        <Button
+            android:id="@+id/btnsighupform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sigh up"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/putih"
+            android:textColor="@color/coklat"/>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coklat"
+    tools:context=".FormulirPenjual">
+    <TextView
+        android:gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Formulir Penjual"
+        android:textSize="50dp"
+        android:textColor="@color/putih"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:background="@color/putih">
+        <EditText
+            android:layout_margin=""
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Nama Depan"/>
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Nama Belakang" />
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="isi e mail atau no hp" />
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="password" />
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="konfirmasi password" />
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="nama produk" />
+
+        <ImageView
+            android:id="@+id/imvpotopenjual"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:outlineSpotShadowColor="@color/coklat"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="isi foto prodak pada halam atas" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="beberapa ketentuan yang harus anda patuhi ya itu\nsaya hanya akan menyajikan makanan berkualitas dan\ndan aman di konsumsi tekan tombol submit dibawah ini\nbila anda sudah menyetujuai perjanjian" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textColor="@color/putih"
+            android:background="@color/coklat"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
